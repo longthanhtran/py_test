@@ -7,7 +7,7 @@ mysql_db = MySQLDatabase(
     'pydb',
     host   = '192.168.10.51',
     user   = 'tt1',
-    passwd ='helloworld')
+    passwd = 'helloworld')
 
 class BaseModel(Model):
     """ A base class that uses MySQL database"""
